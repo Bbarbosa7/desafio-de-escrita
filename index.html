@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <title>Curso jQuery | Alura</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron">
+                    <h1 class="display-3">O Contador</h1>
+                    <p class="lead">Um jogo simples e divertido para contar quantas palavras foram escritas e o seu tempo de execução</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="py-3 px-3 border bg-success text-white">
+                    <h5><span id="tempo-execucao">10</span> segundos restantes</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <br/>
+                <h5>Frase Desafio:</h5>
+                <p>Humpty Dumpty sentou no muro, Humpty Dumpty caiu no chão duro. Nem os cavalos e os homens do rei puderam montar Humpty Dumpty outra vez.</p>
+                
+                <div class="form-group">
+                  <label for="campo-digitacao"></label>
+                  <textarea class="form-control" name="campo-digitacao" id="campo-digitacao" rows="8" cols="60"></textarea>
+                </div>
+                <ul class="list-group" id="informacoes">
+                    <li class="list-group-item"><span id="quantidade-palavras">0</span> palavras digitadas contendo <span id="quantidade-caracteres">0</span> caracteres em <span id="tempo-execucao">10</span> segundos</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
